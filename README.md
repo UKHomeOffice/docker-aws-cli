@@ -1,6 +1,7 @@
 # docker-aws-cli
 
-A simple aws cli client based on Alpine.
+A lightweight aws cli client based on Alpine.
+
 
 Usage
 
