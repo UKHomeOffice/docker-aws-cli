@@ -1,7 +1,7 @@
 pipeline:
   build:
     environment:
-      - DOCKER_USERNAME=ukhomeofficedigital+docker-aws-cli
+      - DOCKER_USERNAME=ukhomeofficedigital+docker_aws_cli
     image: quay.io/ukhomeofficedigital/drone-docker
     registry: quay.io
     repo: quay.io/ukhomeofficedigital/docker-aws-cli
@@ -14,7 +14,7 @@ pipeline:
 
   build_tag:
     environment:
-      - DOCKER_USERNAME=ukhomeofficedigital+docker-aws-cli
+      - DOCKER_USERNAME=ukhomeofficedigital+docker_aws_cli
     image: quay.io/ukhomeofficedigital/drone-docker
     registry: quay.io
     repo: quay.io/ukhomeofficedigital/docker-aws-cli
