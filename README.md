@@ -2,7 +2,6 @@
 
 A lightweight aws cli client based on Alpine.
 
-
 Usage
 
 docker run \
