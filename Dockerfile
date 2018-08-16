@@ -1,5 +1,6 @@
 FROM alpine:3.6
 
+USER 1000
 # Versions: https://pypi.python.org/pypi/awscli#downloads
 ENV AWS_CLI_VERSION 1.15.60
 
